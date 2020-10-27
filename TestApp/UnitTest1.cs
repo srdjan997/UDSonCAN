@@ -8,7 +8,7 @@ namespace TestApp
     [TestClass]
     public class UnitTest1
     {
-        private Boolean tested = true;
+        //private Boolean tested = true;
         [TestMethod]
         public void TestMethod1()
         {
@@ -20,12 +20,13 @@ namespace TestApp
             //////////////////////////////////////////////////////
             res = test.TestCase1(test);
             Thread.Sleep(1000);
+            Assert.IsFalse(res);
             if (res == true)
             {
                 Console.WriteLine("TEST PASSED!!");
             }
             else Console.WriteLine("TEST FAILED");
-            Assert.IsTrue(res);
+            
             
         }
         /*[TestMethod]

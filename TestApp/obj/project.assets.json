@@ -5840,11 +5840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bobos\\Desktop\\Project\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "C:\\Users\\bobos\\Desktop\\BSCRad\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "C:\\Users\\bobos\\Desktop\\Project\\TestApp\\TestApp.csproj",
+      "projectPath": "C:\\Users\\bobos\\Desktop\\BSCRad\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\bobos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bobos\\Desktop\\Project\\TestApp\\obj\\",
+      "outputPath": "C:\\Users\\bobos\\Desktop\\BSCRad\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5863,8 +5863,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\bobos\\Desktop\\Project\\CanOnUDS\\CanOnUDS.csproj": {
-              "projectPath": "C:\\Users\\bobos\\Desktop\\Project\\CanOnUDS\\CanOnUDS.csproj"
+            "C:\\Users\\bobos\\Desktop\\BSCRad\\CanOnUDS\\CanOnUDS.csproj": {
+              "projectPath": "C:\\Users\\bobos\\Desktop\\BSCRad\\CanOnUDS\\CanOnUDS.csproj"
             }
           }
         }

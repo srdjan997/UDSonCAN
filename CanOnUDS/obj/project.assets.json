@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bobos\\Desktop\\Project\\CanOnUDS\\CanOnUDS.csproj",
+      "projectUniqueName": "C:\\Users\\bobos\\Desktop\\BSCRad\\CanOnUDS\\CanOnUDS.csproj",
       "projectName": "CanOnUDS",
-      "projectPath": "C:\\Users\\bobos\\Desktop\\Project\\CanOnUDS\\CanOnUDS.csproj",
+      "projectPath": "C:\\Users\\bobos\\Desktop\\BSCRad\\CanOnUDS\\CanOnUDS.csproj",
       "packagesPath": "C:\\Users\\bobos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bobos\\Desktop\\Project\\CanOnUDS\\obj\\",
+      "outputPath": "C:\\Users\\bobos\\Desktop\\BSCRad\\CanOnUDS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
