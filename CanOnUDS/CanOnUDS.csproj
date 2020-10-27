@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="vxlapi_NET">
+      <HintPath>..\..\..\..\Desktop\Private\BSC_UDS_ON_CAN\VectorUDSAppSln\VectorUDSApp\vxlapi_NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

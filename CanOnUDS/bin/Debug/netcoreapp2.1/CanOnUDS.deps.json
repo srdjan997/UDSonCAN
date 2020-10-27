@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "CanOnUDS/1.0.0": {
+        "dependencies": {
+          "vxlapi_NET": "11.0.14.22309"
+        },
+        "runtime": {
+          "CanOnUDS.dll": {}
+        }
+      },
+      "vxlapi_NET/11.0.14.22309": {
+        "runtime": {
+          "vxlapi_NET.dll": {
+            "assemblyVersion": "11.0.14.22309",
+            "fileVersion": "11.0.14.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CanOnUDS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "vxlapi_NET/11.0.14.22309": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
