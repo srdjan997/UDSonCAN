@@ -55,10 +55,10 @@ namespace UDSonCAN
         public string DEFAULT_SESSION;
         public string READ_DATA_BY_ID;
         public string TESTER_PRESENT;
-        private static uint respid;
-        private static uint reqid;
-        private static uint resaddr;
-        private static uint reqaddr;
+        //private static uint respid;
+        //private static uint reqid;
+        //private static uint resaddr;
+        //private static uint reqaddr;
         public int FILLER = 0X55;
         public uint REQ_ID = 0X735;
         public uint RES_ID = 0X73D;
@@ -76,7 +76,7 @@ namespace UDSonCAN
         public uint TimerRate = 0;
         public Boolean response = false;
         
-        int TPLOCK = 0;
+        //int TPLOCK = 0;
 
         /******************************End of Global variables***************/
 
@@ -247,7 +247,7 @@ namespace UDSonCAN
             status = UDSDemo.XL_ResetClock(portHandle);
             Console.WriteLine("Reset Clock  :" + status + Environment.NewLine);
             if (status != XLDefine.XL_Status.XL_SUCCESS) PrintFunctionError();
-            TPLOCK = 1;
+            //TPLOCK = 1;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\nDevice Connected " + driverConfig.channel[0].name + " and " + driverConfig.channel[1].name + " active\n");
             Console.ForegroundColor = ConsoleColor.White;
@@ -261,7 +261,7 @@ namespace UDSonCAN
 
         public void CONNECT()
         {
-            TPLOCK = 1;
+            //TPLOCK = 1;
             REQ_ID = 0X735;
             RES_ID = 0X73D;
             status = UDSDemo.XL_ActivateChannel(portHandle, accessMask, XLDefine.XL_BusTypes.XL_BUS_TYPE_CAN, XLDefine.XL_AC_Flags.XL_ACTIVATE_NONE);
@@ -279,7 +279,7 @@ namespace UDSonCAN
 
         public void DISCONNECT()
         {
-            TPLOCK = 0;
+            //TPLOCK = 0;
             status = UDSDemo.XL_DeactivateChannel(portHandle, accessMask);
             Console.WriteLine("Deactivate Channel  :" + status + Environment.NewLine);
             if (status != XLDefine.XL_Status.XL_SUCCESS) PrintFunctionError();
