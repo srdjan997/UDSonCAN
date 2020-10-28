@@ -20,7 +20,7 @@ namespace TestApp
             //////////////////////////////////////////////////////
             res = test.TestCase1(test);
             Thread.Sleep(1000);
-            Assert.IsFalse(res);
+            Assert.IsTrue(res);
             if (res == true)
             {
                 Console.WriteLine("TEST PASSED!!");
