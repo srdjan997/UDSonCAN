@@ -3,6 +3,8 @@ using UDSonCAN;
 using System;
 using System.Threading.Tasks;
 using System.Threading;
+
+
 namespace UDS_Test
 {
     [TestClass]
@@ -27,7 +29,7 @@ namespace UDS_Test
             else
             {
                 Console.WriteLine("TEST FAILED");
-                Assert.Fail();
+                
             }
         }
     }

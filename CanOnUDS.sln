@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTest", "NUnitTest\NUnitTest.csproj", "{77324C32-1A21-489B-9534-A432C935EC7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDS_Test", "UDS_Test\UDS_Test.csproj", "{B5D1BDCB-0E1D-403E-8400-88693827DC14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDS_Test", "UDS_Test\UDS_Test.csproj", "{B5D1BDCB-0E1D-403E-8400-88693827DC14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -123,7 +123,7 @@ namespace UDSonCAN
             Boolean result = false;            
             t1.INITLOG();
             Thread.Sleep(3000);
-            Console.Clear();
+            //Console.Clear();
             t1.TXHANDLER(0X10);
             Thread.Sleep(1000);
             if (response == true)
